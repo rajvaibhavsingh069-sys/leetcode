@@ -4,7 +4,7 @@ class Solution:
         i=0
         while i<n :
             j=nums[i]-1
-            if (1 <= nums[i] <= n and nums[i] != nums[j]):
+            if (nums[i]<n and nums[i]>=1 and nums[j]!=nums[i]):
                 nums[i],nums[j]=nums[j],nums[i]
             else: i+=1
 
