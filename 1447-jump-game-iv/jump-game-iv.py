@@ -19,7 +19,7 @@ class Solution:
 
         while front:
 
-            # always expand smaller side
+            
             if len(front) > len(back):
                 front, back = back, front
 
